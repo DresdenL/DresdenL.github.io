@@ -8,7 +8,7 @@ document.getElementById("formSubmit").addEventListener("click", function(event){
     var information = {textinput:null, checkbox:null};
     information.textinput = message
     information.checkbox = subscribe
-    theRequest.open("POST", "http://httpbin.org/post", true);
+    theRequest.open("POST", "https://httpbin.org/post", true);
     theRequest.setRequestHeader("Content-type", "application/json")
     theRequest.addEventListener("load", function(){
         if (theRequest.status >= 200 && theRequest.status < 400){
