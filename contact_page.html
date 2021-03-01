@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>CONTACT</title>
+  <link rel="stylesheet" href="contact_style.css" type="text/css">
+ </head>
+ <body>
+
+        <!--The navigation code and idea I got from https://www.w3.org/wiki/Creating_multiple_pages_with_navigation_menus-->
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="about_page.html">About</a></li>
+                <li><a href="gallery_page.html">Gallery</a></li>
+                <li id=current>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Get in touch!</h1>
+    <div id=mainbody>
+        <div id=classdiv>
+            <form id="subForm">
+                <label id=commentlabel>Leave a message or comment below</label>
+                <textarea id="commentbox" name='comment'></textarea>
+                <p id=subscription>Would you like to subscribe to the Duck Newsletter?                
+                    <input type=checkbox id=checkbox name='subscribe'>
+                    <label>YES</label></p>
+                
+                <input type="submit" id="formSubmit">
+            </form>
+        </div>
+        <h2>Latest Blog Posts from Duck:</h2>
+        <p class=dates>2/28/21</p>
+        <p class=blogtext>Hello fans. Today my humans made me go for another walk. Then I took a long nap. Now i'm writing this blogpost. I'm going
+            to go play with a mouse toy later. All is well. Bye!
+        </p>
+        <p class=dates>2/14/21</p>
+        <p class=blogtext>My humans took me to the vet today and I had to get shots. Not cool.</p>
+        <p class=dates>2/01/21</p>
+        <p class=blogtext>Hello everyone! Had some treats and broke the world record for loudest meow today! Woo!
+            Going to go hang out with the Queen of England l8r. Signing off, Duck. 
+        </p>
+        <p class=dates>1/25/21</p>
+        <p class=blogtext>Going on a vacation! Be back later! </p>
+
+    </div>
+  <script src="contact_javascript.js"></script>
+ </body>
+</html>

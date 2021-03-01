@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>HOME</title>
+  <link rel="stylesheet" href="home_style.css" type="text/css">
+ </head>
+ <body id="THEBODY">
+    <div id=navbar>
+      <!--The navigation code and idea I got from https://www.w3.org/wiki/Creating_multiple_pages_with_navigation_menus-->
+      <nav>
+        <ul>
+          <!--Current page that the user is on does not have a link to show the user where they are at in the 
+          website.-->
+          <li id=current>Home</li>
+          <li><a href="about_page.html">About</a></li>
+          <li><a href="gallery_page.html">Gallery</a></li>
+          <li><a href="contact_page.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+      <h1 id="heading">DUCK LEEFORD</h1>
+      <div id=duckimg><img src="duck1.jpg" alt="A grey tabby" id="duckpic"><button type="button" id="backButton"><</button>
+        <button type="button" id="forwardButton">></button></div>
+      <p id=one>"The cutest cat i've ever seen." - Beyonce</p>
+      <p id=two>"This cat is the smartest cat i've ever met!" - Neil Degrasse Tyson</p>
+      <p id=three>"I trust this cat with my life. I'm voting for her in 2024." - the President </p>
+  <script src="home_javascript.js"></script>
+ </body>
+</html>

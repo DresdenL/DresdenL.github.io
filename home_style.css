@@ -1,0 +1,81 @@
+#navbar {
+    background-color: white;
+    height: 30px;
+    width:400px;
+    border-radius: 40px
+}
+
+nav li {
+    margin-right: 15px;
+    margin-top: 10%;
+    display: inline;
+    font-size: large;
+    font-family: verdana
+}
+
+body {
+    background-color: lightblue
+}
+
+p {
+    margin-left: 200px;
+    font-family: verdana
+}
+
+button {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: pink
+}
+
+#duckimg {
+    background-color: white;
+    height: 500px;
+    border-radius: 100px
+}
+
+#current {
+    background-color: pink;
+    border-radius: 40px
+}
+#duckpic {
+    margin-top: 30px;
+    margin-left: 36%;
+    width: 25%;
+    border-radius: 20px
+    
+}
+
+#backButton {
+    margin-left: 38%
+}
+
+#forwardButton {
+    margin-left: 275px
+}
+
+#heading {
+    margin-left: 39%;
+    font-family: verdana
+}
+
+
+#buttonbar {
+    background-color: white;
+    margin-bottom: 4px;
+    height: 50px
+}
+
+#two {
+    margin-left: 300px
+}
+
+#three {
+    margin-left: 500px
+}
+
+
+
+

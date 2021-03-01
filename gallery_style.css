@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue
+}
+
+nav li {
+    margin-right: 15px;
+    margin-top: 10%;
+    display: inline;
+    font-size: large;
+    font-family: verdana
+}
+
+#navbar {
+    background-color: white;
+    height: 30px;
+    width:400px;
+    border-radius: 40px
+}
+
+#current {
+    background-color: pink;
+    border-radius: 40px
+}
+
+h1 {
+    font-family: verdana;
+    margin-left: 45%
+}
+
+#whitediv {
+    margin-left: 400px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%
+}
+.duckpic {
+    margin-left: 165px;
+    width: 55%;
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-bottom: 50px
+}
+
+p {
+    font-family: verdana;
+    font-size:smaller;
+    padding-top: 10px;
+    margin-left: 70px
+}
